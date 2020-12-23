@@ -1,3 +1,3 @@
 import getData from './lib/service';
 
-getData(5)
+getData(2)
