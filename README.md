@@ -17,7 +17,7 @@
 
 		[https://jsonplaceholder.typicode.com/posts?userId=1](https://jsonplaceholder.typicode.com/posts?userId=1)
 
-	- [ ] Artık elimizde kullanıcı bilgileri ve bu kullanıcının post'ları var. Bu iki veriyi birleştirip return edin. Birleştirme sonucunda elinizde aşağıdaki gibi bir obje bulunması gerekiyor.
+	- [x] Artık elimizde kullanıcı bilgileri ve bu kullanıcının post'ları var. Bu iki veriyi birleştirip return edin. Birleştirme sonucunda elinizde aşağıdaki gibi bir obje bulunması gerekiyor.
 
 		```
 		{
@@ -54,7 +54,7 @@
 
 - [x] **"app.js"** dosyasına yazmış olduğunuz **"getData"** isimli fonksiyonu **"import"** edin.
 - [x] Bir alt satırda bu fonksiyonu çalıştırın ve gelen sonucu log'layın.
-- [ ] Yazılan kodun build'ini alacak olan npm script'ini yazın. Build, kök dizinde **"dist"** dizinine alınmalıdır.
+- [x] Yazılan kodun build'ini alacak olan npm script'ini yazın. Build, kök dizinde **"dist"** dizinine alınmalıdır.
 
 
 ----
