@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:kodluyoruz-react-bootcamp/odev-1-hasantezcan.git",
   "author": "hasantezcan <hasantezcan77@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  }
 }
