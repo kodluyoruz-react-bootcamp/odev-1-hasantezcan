@@ -1,9 +1,9 @@
 # Ödev 1
 
 ## Gereksinimler
-- [ ] [Sucrase](https://github.com/alangpierce/sucrase) compiler kurulumu yapılmalıdır. Kurulum için derste yaptığımız [şu](https://github.com/kodluyoruz-react-bootcamp/sources/tree/main/day2/4-es6-modules) örneğe göz atabilirsiniz.
+- [x] [Sucrase](https://github.com/alangpierce/sucrase) compiler kurulumu yapılmalıdır. Kurulum için derste yaptığımız [şu](https://github.com/kodluyoruz-react-bootcamp/sources/tree/main/day2/4-es6-modules) örneğe göz atabilirsiniz.
   
-- [ ] Kök dizinde **"src"** isminde bir dizin oluşturun ve içerisine **"app.js"** adında bir dosya oluşturun.
+- [x] Kök dizinde **"src"** isminde bir dizin oluşturun ve içerisine **"app.js"** adında bir dosya oluşturun.
   
 - [ ] **"src"** dizini altına **"lib"** adında başka bir dizin açın ve bu dizinde **"service.js"** adında bir dosya oluşturun.
   - [ ] **"service.js"** dosyası içinde **"getData"** adında bir fonksiyon oluşturun.
