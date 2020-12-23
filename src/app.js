@@ -1,3 +1,6 @@
-import getData from './lib/service';
+import getData from "./lib/service";
 
-getData(2)
+const content = getData(1);
+
+content.then((result) => console.log(result));
+

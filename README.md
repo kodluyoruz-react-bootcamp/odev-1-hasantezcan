@@ -52,8 +52,8 @@
 		```
 
 
-- [ ] **"app.js"** dosyasına yazmış olduğunuz **"getData"** isimli fonksiyonu **"import"** edin.
-- [ ] Bir alt satırda bu fonksiyonu çalıştırın ve gelen sonucu log'layın.
+- [x] **"app.js"** dosyasına yazmış olduğunuz **"getData"** isimli fonksiyonu **"import"** edin.
+- [x] Bir alt satırda bu fonksiyonu çalıştırın ve gelen sonucu log'layın.
 - [ ] Yazılan kodun build'ini alacak olan npm script'ini yazın. Build, kök dizinde **"dist"** dizinine alınmalıdır.
 
 
