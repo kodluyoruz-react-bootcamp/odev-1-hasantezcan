@@ -6,7 +6,7 @@ async function getData(userId) {
 	const { data: users } = await _axios2.default.get(`${ENDPOINT}/users/${userId}`);
 	const { data: posts } = await _axios2.default.get(`${ENDPOINT}/posts?userId=${userId}`);
 
-	return { users: users, posts: posts };
+	return { users, posts };
 }
 
 exports. default = getData;
