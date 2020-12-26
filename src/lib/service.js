@@ -4,12 +4,12 @@ const ENDPOINT = "https://jsonplaceholder.typicode.com";
 
 async function getData(userId) {
 	try {
-		const { data: users } = await axios.get(`${ENDPOINT}/users/${userId}`);
+		const { data: user } = await axios.get(`${ENDPOINT}/users/${userId}`);
 		const { data: posts } = await axios.get(
 			`${ENDPOINT}/posts?userId=${userId}`
 		);
 
-		return { users, posts };
+		return { ...user, posts };
 	} catch (error) {
 		console.log(error);
 	}
